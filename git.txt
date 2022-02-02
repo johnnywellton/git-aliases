@@ -1,0 +1,45 @@
+$ git branch = to find out which branches exist.
+$ git branch <branch_name> = to create new branch.
+$ pwd = to find out active directory or your current location.
+$ ls = to show folders and files available.
+$ cd = change directory.
+$ cd - / cd .. = go back.
+$ git init = change folder to repository.
+$ git status = to see which changes have been staged, which haven't, and which files aren't being tracked.
+$ git add . = to add all file to staging area.
+$ git add <file_name> = to add certain file to staging area.
+$ git commit -m "<message>" = to commit and inform changes.
+$ git commit -am = add and commit.
+$ clear = to clear screen.
+Ctrl + C = to move the cursor to a new blank line.
+$ git log = to see history of commited files.
+$ git log --all --decorate --oneline --graph = to see network graph.
+$ alias <keyword>="<command>" = to make shortcut.
+
+alias graph="git log --all --decorate --oneline --graph"
+
+$ git checkout <branch_name> = switch to another branch.
+$ git checkout -b <branch_name> = to switch and create new branch.
+$ dir = to see list of folders.
+$ git merge <branch_name> = to merge files to another branch.
+$ git branch -d <branch_name) = to delete branch.
+$ git branch --merged = to find out the merged branches.
+$ git branch --no-merged = to find out not merged branches.
+$ mkdir <folder_name> = to make folder.
+$ git  fetch = to see what everybody else has been working on github.
+$ git remote add <remote_name> <repository_adress> = to add new remote.
+$ git push -u <remote_name> <branch_name> = push file for the first time.
+$ git clone <download_link> = to download repository.
+$ git remote add <remote_name> <user_url> = to add new remote.
+$ git fetch <remote_name> = to update changes on other user repository.
+$ git merge <remote_name>/<branch_name> = to merge file with original repository.
+$ code . = to open all source code in code editor.
+$ git branch <branch_name> = to create new branch.
+$ git push <remote_name> --delete <branch_name> = to delete branch in GitHub from local.
+$ git rebase <branch_name> = to change the base of branch to the updated commit from master.
+$ php -v = to know the PHP version in your computer.
+$ which php = to know which PHP is in use.
+
+$ php spark serve
+$ composer create-project codeigniter4/appstarter project-root
+$ composer create-project codeigniter4/appstarter --no-dev
